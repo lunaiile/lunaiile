@@ -32,7 +32,7 @@
 
   <!-- Animated typing text -->
   <text x="40" y="90" font-family="Consolas, monospace" font-size="34" font-weight="bold" fill="url(#glow)">
-    Hi, I'm Kamar Bentabet
+    Hi, I'm Kamar 
     <animate attributeName="opacity" values="0;1;1" dur="1.2s" fill="freeze"/>
   </text>
 
