@@ -1,16 +1,21 @@
-## Hi there 👋
+# Hi, I'm Kamar 👋
 
-<!--
-**lunaiile/lunaiile** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+![header](header.svg)
 
-Here are some ideas to get you started:
+I'm a Computer Science graduate currently pursuing a Master's degree in Artificial Intelligence and Digitalization at Université Ibn Khaldoun de Tiaret, Algeria. I build full-stack applications and work on AI/ML projects, and I'm currently looking for Junior Software Developer / AI-related roles, open to relocation to Cologne, Germany.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🛠️ Tech Stack
+
+- **Languages:** Python, Java
+- **Frameworks & Mobile:** React, Flutter
+- **Databases:** MySQL, Firebase
+- **Tools:** Git, AI/ML model training
+
+## 📌 Featured Project
+
+**TrailFinder** — A social travel-discovery app with a relational database design (13 tables) covering places & categories with geolocation, user profiles, friend networks, group messaging, favorites, and notifications. Built collaboratively with Flutter/React frontend and MySQL backend as a final-year project.
+
+## 📫 Contact
+
+- Email: kamarben004@gmail.com
+- Open to relocation to Cologne, Germany 🇩🇪
