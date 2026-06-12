@@ -1,1 +1,53 @@
+<svg width="900" height="220" viewBox="0 0 900 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#58a6ff"/>
+      <stop offset="50%" stop-color="#a371f7"/>
+      <stop offset="100%" stop-color="#58a6ff"/>
+      <animate attributeName="x1" values="0;1;0" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="1;2;1" dur="6s" repeatCount="indefinite"/>
+    </linearGradient>
+  </defs>
 
+  <rect width="900" height="220" fill="url(#bg)" rx="12"/>
+
+  <!-- Bat silhouette, geometric/minimal -->
+  <g fill="#21262d" opacity="0.5">
+    <path d="M780 40
+      C 770 55, 760 60, 745 58
+      C 752 70, 745 85, 730 88
+      C 745 95, 760 110, 790 108
+      C 800 130, 815 145, 845 150
+      C 870 150, 880 140, 890 125
+      C 880 115, 868 112, 860 100
+      C 875 95, 880 80, 870 65
+      C 858 70, 848 65, 845 50
+      C 835 65, 815 70, 800 60
+      C 805 48, 795 38, 780 40 Z"/>
+  </g>
+
+  <!-- Animated typing text -->
+  <text x="40" y="90" font-family="Consolas, monospace" font-size="34" font-weight="bold" fill="url(#glow)">
+    Hi, I'm Kamar Bentabet
+    <animate attributeName="opacity" values="0;1;1" dur="1.2s" fill="freeze"/>
+  </text>
+
+  <text x="40" y="135" font-family="Consolas, monospace" font-size="18" fill="#8b949e">
+    Computer Science Graduate &#183; AI &amp; Software Development
+    <animate attributeName="opacity" values="0;0;1" dur="2.5s" fill="freeze"/>
+  </text>
+
+  <text x="40" y="170" font-family="Consolas, monospace" font-size="16" fill="#56d364">
+    &gt; Python &#183; Java &#183; React &#183; Flutter &#183; MySQL
+    <animate attributeName="opacity" values="0;0;0;1" dur="3.8s" fill="freeze"/>
+  </text>
+
+  <!-- blinking cursor -->
+  <rect x="430" y="155" width="10" height="18" fill="#56d364">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+</svg>
